@@ -47,6 +47,7 @@ body {
     margin-bottom: .8rem;
     font-size: 1.8rem;
     font-weight: 600;
+    line-height: 1.22
   }
 
   h3 {
@@ -58,13 +59,14 @@ body {
 .frame-about {
   margin-top: 4rem;
   margin-bottom: 5rem;
+  padding: 0 20px;
 
   .tree {
     width: 70px;
   }
 
   p {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 
@@ -90,5 +92,11 @@ body {
 .frame-footer {
   p {
     margin: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 90%;
   }
 }
