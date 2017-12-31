@@ -14,8 +14,81 @@ body {
   color: #111;
 }
 
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
+}
+
 /* begin */
 
-.wrapper {
-  margin: 1rem;
+.frame {
+  text-align: center;
+}
+
+.frame-inner {
+  max-width: 750px;
+  margin: 3rem auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 250px;
+  width: 70%;
+}
+
+.instawidget {
+  min-height: 280px;
+}
+
+.frame-header {
+  h1 {
+    margin-top: 2rem;
+    margin-bottom: .8rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+
+  h3 {
+    margin: 0;
+    font-weight: normal;
+  }
+}
+
+.frame-about {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+
+  .tree {
+    width: 70px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.frame-social {
+  .follow-ig {
+    display: block;
+    width: 160px;
+    margin: 0 auto 1rem;
+    border: 2px solid #000;
+    border-radius: 4px;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    img {
+      display: block;
+      border-radius: 4px;
+    }
+  }
+}
+
+.frame-footer {
+  p {
+    margin: 0;
+  }
 }
